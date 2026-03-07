@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- lists in html are of 2 types ORDERED AND UNORDERED LIST -->
+    <!-- UNORERDED LIST -->
+    <p><b>UNORDERED LIST</b></p>
+    <hr>
+    <ul>
+        <li>Apple</li>
+            <ul>
+                <li>colour red</li>
+                <li>month winters</li>
+            </ul>
+        <li>Mango</li>
+            <ul>
+                <li>colour yellow</li>
+                <li>month summer</li>
+            </ul>
+        <li>Orange</li>
+            <ul>
+                <li>colour orange</li>
+                <li>month winters</li>
+            </ul>
+    </ul>
+    <hr>
+    <hr>
+
+    <!-- ORDERED LIST -->
+    <p><b>ORDERED LIST</b></p>
+    <hr>
+    <ol>
+        <li>C</li>
+        <li>c++</li>
+        <li>python</li>
+        <li>javascript</li>
+    </ol>
+    <hr>
+    <hr>
+
+    <!-- TABLES IN HTML -->
+    <p><b><u>TABLES</u></b></p>
+    <table>
+        <caption>Student Data</caption>  <!--caption or heading about the table-->
+        <thead>
+        <tr>  <!--TABLE ROW-->
+            <th>Name</th>   <!-- TABLE HEADER -->
+            <th>Roll no</th>
+            <th>Marks 1</th>
+            <th>Marks 2</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Rahul</td>  <!--TABLE DATA-->
+            <td>FR42</td>
+            <td>89</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Neha</td>
+            <td>FR43</td>
+            <td>88</td>
+            <td>99</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <hr>
+
+    <table>
+        <tr>
+            <th colspan="3">Student Information</th>
+        </tr>
+        <!-- colspan basically used to so tht whats written in table headers comes over all rows -->
+        <!-- we assign value to colspan that how many rows it should cover over-->
+        <tr>
+            <td>rahul</td>
+            <td>fr42</td>
+            <td>99</td>
+        </tr>
+
+        <tr>
+            <td>neha</td>
+            <td>fr43</td>
+            <td>90</td>
+        </tr>
+    </table>
+
+    <hr>
+    <hr>
+
+
+    <!-- FORMS -->
+    <form action="/action.php">
+        <h3><B>REGISTRATION FORM</B></h3>
+        <input type="text" placeholder="Username">
+        <br><br>
+        <input type="password" placeholder="password">
+        <br>
+
+        <h4>Select your class</h4>
+        <label for="101">
+            <input type="radio" name="class" value="class XI" id="101">Class XI
+        </label>
+
+        <label for="102">
+            <input type="radio" name="class" value="class XII" id="102">Class XII
+        </label>
+
+        <!-- classes and ids -->
+        <div id="101" class="grp1">
+            <!-- content inside this will come in grp one -->
+        </div>
+
+        <!-- CHECKBOXS -->
+        <h4>Select you subjects</h4>
+        <label for="maths">
+            <input type="checkbox" name="subject" value="math" id="101">maths
+        </label>
+
+        <label for="physics">
+            <input type="checkbox" name="subject" value="phy" id="102">physics
+        </label>
+
+        <label for="chemistry">
+            <input type="checkbox" name="subject" value="chem" id="103">chemistry
+        </label>
+
+        <label for="computer science">
+            <input type="checkbox" name="subject" value="cs" id="104">computer science
+        </label>
+        <br><br>
+        
+        <!-- DROPDOWN OPTIONS WE USE 'SELECT TAG' -->
+        <h4>Select your city</h4>
+        <select name="City" id="1">
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bangalore">Bangalore</option>
+            <option value="Mangalore">Mangalore</option>
+        </select>
+        <br><br>
+
+        <!-- TEXT AREA TAG -->
+        <h4>Share your feedback</h4>
+        <label>
+            <textarea name="feedback" id="101" placeholder="Please give your valueable feedback" row = 5>feedback
+            </textarea>
+        </label>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    <br><br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4WjtQjPQGIs?si=vQ2mTjwF09Whyhgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <br><br>
+
+    <iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Main_Page"></iframe>
+
+    <br><Br>
+    <video src="/JANIYE - Made with Clipchamp (1).mp4" height="400" controls></video>
+</body>
+</html>
