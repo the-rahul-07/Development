@@ -1,0 +1,65 @@
+button{
+    color: brown;
+    background-color:cadetblue;
+}
+body{
+    background-color:rgb(5, 39, 42);
+}
+/* HEADING BY IDS */
+#headingOne{
+    color: brown;
+    text-align: center;
+}
+#headingTwo{
+    color: yellow;
+}
+#headingThree{
+    color: blue;
+}
+/* HEADING BY CLASSES */
+.myclass{
+    color: chocolate;
+}
+#box{
+    color: white;
+    background-color:blue;
+}
+.heading{
+    color: red;
+}
+.t1{
+    color: white;
+}
+#t01{
+    position: absolute;
+    top: 90px;
+}
+#t02{
+    position: absolute;
+    top: 90px;
+    left: 120px;
+}
+#t03{
+    position: absolute;
+    top: 90px;
+    left: 260px;
+}
+#t04{
+    position: absolute;
+    top: 90px;
+    left: 410px;
+}
+#t05{
+    position: absolute;
+    top: 90px;
+    left: 540px;
+}
+#t06{
+    position: absolute;
+    top: 90px;
+    left: 750px;
+}
+.t2{
+    color:white;
+    background-color: rgb(5, 39, 42);
+}
