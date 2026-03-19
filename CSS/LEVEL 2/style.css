@@ -1,0 +1,48 @@
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    background-color: lightblue;
+    height: 50px;
+    width: 150px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border : 2px solid black;
+}
+ 
+#one{
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border : 3px dotted red;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding:25px;
+    margin-top : 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#two{
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border : 3px dotted red;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding:25px;
+    margin:20px;
+}
+/* 
+padding is area btw border and content 
+padding : top right bottom left - clockwise
+or single value padding : value
+*/
+
+/* margin is area btw 2 boxs border
+margin : top right bottom left - clockwise
+or single value margin : value
+*/
