@@ -46,3 +46,48 @@ or single value padding : value
 margin : top right bottom left - clockwise
 or single value margin : value
 */
+
+#divid{
+    background-color: pink;
+    display: inline;
+}
+button{
+    display:block;
+    background-color: lightsalmon;
+}
+/* display property
+display:inline/block/inline-block/none
+inline means short space//block means full space it will occupy
+
+**display:none** means element will be removed and 
+there will not be any space left in place of it
+other elments or things will occupy it
+*/
+
+#three{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    /* display: inline; */
+    /* this margin wont be applied from top and bottom if we change it to inline element */
+    /* so what we do is we use inline-block */
+    display: inline-block;
+}
+
+/* visibility property
+this also removes element but diffrence btw display none nd visibility none is
+in visibility none there will be space reserved for the element where as
+in display : none there wont be any space reserved
+*/
+
+#box4{
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 25px;
+    /* this is rgba that "a" represent alpha channel which sets the opacity of colour 
+    its value lies btw 0 to 1*/
+    background-color: rgba(255, 0, 0, 0.5);
+
+}
